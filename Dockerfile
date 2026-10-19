@@ -21,11 +21,14 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Set working directory
 WORKDIR /var/www
 
-# Copy application code
+# Copy ALL project files first
 COPY . .
 
-# Install PHP & Node dependencies
-RUN composer install --no-dev --optimize-autoloader
+# Install PHP dependencies (disabling scripts temporarily if needed, then running package discovery)
+RUN composer install --no-dev --optimize-autoloader --no-scripts
+RUN php artisan package:discover --ansi
+
+# Install Node dependencies and build assets
 RUN npm install
 RUN npm run build
 
