@@ -11,9 +11,9 @@ class Profile extends Model
         return [
             'status' => 'Available for projects',
             'company' => 'HART & CO. CREATIVE',
-            'name' => 'Sheena Ashly Egloria',
+            'name' => 'Romeo Hart',
             'bio' => 'Brand strategist & creative director helping bold ideas become unforgettable brands.',
-            'hero_image' => 'images/sample.jpg',
+            'hero_image' => 'images/sample.png',
             'links' => [
                 [
                     'label' => 'EMAIL',
