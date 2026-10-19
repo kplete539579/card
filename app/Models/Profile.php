@@ -11,15 +11,15 @@ class Profile extends Model
         return [
             'status' => 'Available for projects',
             'company' => 'HART & CO. CREATIVE',
-            'name' => 'Sheena Ashly Egloria',
+            'name' => 'Romeo Paolo Patrimonio',
             'bio' => 'Brand strategist & creative director helping bold ideas become unforgettable brands.',
             'hero_image' => 'images/sample.jpg',
             'links' => [
                 [
                     'label' => 'EMAIL',
-                    'value' => 'egloriasheena30@gmail.com',
+                    'value' => 'p.patrimonio.560605@umindanao.edu.ph',
                     // Opens default mail app with pre-filled address
-                    'url' => 'mailto:egloriasheena30@gmail.com?subject=Inquiry%20from%20Website',
+                    'url' => 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#search/p.patrimonio.560605%40umindanao.edu.ph?compose=DmwnWrRpdTRqCDKPsrKCLxthsLDhkPnrZwBrvDMBkRnvLtTgVnRRrSRfWPMMfqfrfbCwXZVSdXCq',
                     'icon' => 'far fa-envelope',
                 ],
                 [
@@ -31,16 +31,16 @@ class Profile extends Model
                 ],
                 [
                     'label' => 'INSTAGRAM',
-                    'value' => '@ahlsyyy',
+                    'value' => '@pabolito8',
                     // Direct social profile link
-                    'url' => 'https://www.instagram.com/ahlsyyy/',
+                    'url' => 'https://www.instagram.com/pabolito8/',
                     'icon' => 'fab fa-instagram',
                 ],
                 [
                     'label' => 'FACEBOOK',
-                    'value' => 'Sheena Ashly Egloria',
+                    'value' => 'Romeo Patrimonio',
                     // Direct Facebook page/profile link
-                    'url' => 'https://www.facebook.com/sheena.egloria',
+                    'url' => 'https://www.facebook.com/romeo.patrimonio.312569',
                     'icon' => 'fab fa-facebook-f',  
                 ],
                 [
